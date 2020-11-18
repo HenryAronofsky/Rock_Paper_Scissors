@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#game {
+	margin: auto;
+	margin-top: 20px;
+	width: 302px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.playerImages {
+	display: inline;
+	width: 100px;
+	float: left;
+	position: relative;
+	top: 360px;
+	height: 140px;
+	border-top: 1px solid black;
+	transition: 0.2s
+}
+
+.hoverFunction:hover {
+	background-color: lightgrey;
+	border-bottom: 1px solid black;
+    margin-top: -20px;
+	cursor: pointer;
+}
+
+#playerPaper {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#enemy {
+	position: relative;
+}
+
+#enemy img {
+	width: 150px;
+	margin-left: 78px;
+	margin-top: -10px;
+	position: absolute;
+	border: none;
+	visibility: hidden;
+}
+
+.selected {
+	background-color: #ff5c40;
+}
